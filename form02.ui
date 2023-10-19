@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form02</class>
+ <widget class="QWidget" name="Form02">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>996</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>瑞鋆中控设备进销存管理系统</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1011</width>
+     <height>801</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#739cc2;&quot;&gt;欢迎采购员001登录&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1001</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>项目管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>库存管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>采购管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>账号管理</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="NoBrush">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>0</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>820</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上传</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>0</y>
+     <width>271</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;瑞鋆中控设备进销存管理系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Rui Yun Ke Ji</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>981</width>
+     <height>567</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_4">
+          <property name="text">
+           <string>深发设备</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <row>
+           <property name="text">
+            <string>红外收发器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>智能断路器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>无线空开</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>开关机卡</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>价格</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>s0075</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>x686</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>x680</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>320</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>x685</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_10">
+          <property name="text">
+           <string>光电科技</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <row>
+           <property name="text">
+            <string>红外收发器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>智能断路器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>无线空开</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>开关机卡</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>价格</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>s0075</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>x686</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>x680</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>320</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>x685</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_11">
+          <property name="text">
+           <string>聚英科技</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <row>
+           <property name="text">
+            <string>红外收发器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>智能断路器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>无线空开</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>开关机卡</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>价格</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>s0075</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>x686</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>x680</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>320</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>x685</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_5">
+          <property name="text">
+           <string>华众设备</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <row>
+           <property name="text">
+            <string>红外收发器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>智能断路器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>无线空开</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>开关机卡</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>价格</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>s0075</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>x686</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>x680</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>320</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>x685</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_15">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_12">
+          <property name="text">
+           <string>小米智能</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_10">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <row>
+           <property name="text">
+            <string>红外收发器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>智能断路器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>无线空开</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>开关机卡</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>价格</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>s0075</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>x686</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>x680</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>320</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>x685</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_16">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_14">
+          <property name="text">
+           <string>灵信视觉</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <row>
+           <property name="text">
+            <string>红外收发器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>智能断路器</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>无线空开</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>开关机卡</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>价格</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>s0075</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>80</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>x686</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>125</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>x680</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>320</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>x685</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>120</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_17">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_15">
+          <property name="text">
+           <string>待添加</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_18">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_16">
+          <property name="text">
+           <string>待添加</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>820</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>graphicsView_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>commandLinkButton</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>pushButton_12</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

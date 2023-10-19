@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form04</class>
+ <widget class="QWidget" name="Form04">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>996</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>瑞鋆中控设备进销存管理系统</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Rui Yun Ke Ji</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1011</width>
+     <height>801</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#739cc2;&quot;&gt;欢迎项目经理001登录&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>820</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上传</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="backgroundBrush">
+    <brush brushstyle="NoBrush">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>1001</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="text">
+       <string>项目管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>库存管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>采购管理</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>查询</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>账号管理</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>0</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>0</y>
+     <width>271</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;瑞鋆中控设备进销存管理系统&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>820</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>981</width>
+     <height>567</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_2">
+          <property name="text">
+           <string>项目部</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>员工编号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>姓名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>联系方式</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>员工账号</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>01001</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>张三</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>2301001</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>01002</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>李四</string>
+           </property>
+          </item>
+          <item row="1" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="1" column="3">
+           <property name="text">
+            <string>2301002</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>01003</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>王五</string>
+           </property>
+          </item>
+          <item row="2" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="2" column="3">
+           <property name="text">
+            <string>2301003</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>01004</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>赵六</string>
+           </property>
+          </item>
+          <item row="3" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="3" column="3">
+           <property name="text">
+            <string>2301004</string>
+           </property>
+          </item>
+          <item row="4" column="0">
+           <property name="text">
+            <string>01005</string>
+           </property>
+          </item>
+          <item row="4" column="1">
+           <property name="text">
+            <string>丁七</string>
+           </property>
+          </item>
+          <item row="4" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="4" column="3">
+           <property name="text">
+            <string>2301005</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_7">
+          <property name="text">
+           <string>销售部</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_2">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>员工编号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>姓名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>联系方式</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>员工账号</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>01001</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>张三</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>2301001</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>01002</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>李四</string>
+           </property>
+          </item>
+          <item row="1" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="1" column="3">
+           <property name="text">
+            <string>2301002</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>01003</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>王五</string>
+           </property>
+          </item>
+          <item row="2" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="2" column="3">
+           <property name="text">
+            <string>2301003</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>01004</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>赵六</string>
+           </property>
+          </item>
+          <item row="3" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="3" column="3">
+           <property name="text">
+            <string>2301004</string>
+           </property>
+          </item>
+          <item row="4" column="0">
+           <property name="text">
+            <string>01005</string>
+           </property>
+          </item>
+          <item row="4" column="1">
+           <property name="text">
+            <string>丁七</string>
+           </property>
+          </item>
+          <item row="4" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="4" column="3">
+           <property name="text">
+            <string>2301005</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_8">
+          <property name="text">
+           <string>库存部</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_3">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>员工编号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>姓名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>联系方式</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>员工账号</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>01001</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>张三</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>2301001</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>01002</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>李四</string>
+           </property>
+          </item>
+          <item row="1" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="1" column="3">
+           <property name="text">
+            <string>2301002</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>01003</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>王五</string>
+           </property>
+          </item>
+          <item row="2" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="2" column="3">
+           <property name="text">
+            <string>2301003</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>01004</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>赵六</string>
+           </property>
+          </item>
+          <item row="3" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="3" column="3">
+           <property name="text">
+            <string>2301004</string>
+           </property>
+          </item>
+          <item row="4" column="0">
+           <property name="text">
+            <string>01005</string>
+           </property>
+          </item>
+          <item row="4" column="1">
+           <property name="text">
+            <string>丁七</string>
+           </property>
+          </item>
+          <item row="4" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="4" column="3">
+           <property name="text">
+            <string>2301005</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_9">
+          <property name="text">
+           <string>采购部</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_4">
+          <row>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>5</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>6</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>7</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>9</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>员工编号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>姓名</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>联系方式</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>员工账号</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="text">
+            <string>01001</string>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="text">
+            <string>张三</string>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="text">
+            <string>2301001</string>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string>01002</string>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="text">
+            <string>李四</string>
+           </property>
+          </item>
+          <item row="1" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="1" column="3">
+           <property name="text">
+            <string>2301002</string>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="text">
+            <string>01003</string>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="text">
+            <string>王五</string>
+           </property>
+          </item>
+          <item row="2" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="2" column="3">
+           <property name="text">
+            <string>2301003</string>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="text">
+            <string>01004</string>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="text">
+            <string>赵六</string>
+           </property>
+          </item>
+          <item row="3" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="3" column="3">
+           <property name="text">
+            <string>2301004</string>
+           </property>
+          </item>
+          <item row="4" column="0">
+           <property name="text">
+            <string>01005</string>
+           </property>
+          </item>
+          <item row="4" column="1">
+           <property name="text">
+            <string>丁七</string>
+           </property>
+          </item>
+          <item row="4" column="2">
+           <property name="text">
+            <string>18612121569</string>
+           </property>
+          </item>
+          <item row="4" column="3">
+           <property name="text">
+            <string>2301005</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_13">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_10">
+          <property name="text">
+           <string>待添加</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget_5"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_14">
+        <item>
+         <widget class="QCommandLinkButton" name="commandLinkButton_11">
+          <property name="text">
+           <string>待添加</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="listWidget_13"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_12"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <zorder>graphicsView</zorder>
+  <zorder>label_2</zorder>
+  <zorder>graphicsView_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>commandLinkButton</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
